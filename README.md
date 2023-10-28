@@ -27,7 +27,7 @@ Kit
 requires [clj-new](https://github.com/seancorfield/clj-new),
 installed preferably as a tool:
 
-`clojure -Ttools install com.github.seancorfield/clj-new '{:git/tag "v1.2.381"}' :as clj-new`
+`clj -Ttools install-latest :lib io.github.seancorfield/clj-new :as clj-new`
 
 To create a new Kit application:
 
